@@ -1,0 +1,87 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: #240224;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+
+.icono a{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.icono a:hover{
+    color: #b100b1;
+}
+
+.nombre a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nombre a:hover{
+    color: #b100b1 !important;
+}
+
+.deta {
+    background-color: #240224 !important;
+    color: white !important;
+    font-size: large;
+}
+
+.deta:hover{
+    background-color:#b100b1 !important;
+}
+
+.medico{
+    font-size: 1.5rem;
+}
+
+.nombre-paciente{
+    font-size: 1.5rem;
+    
+}
+
+.botonF{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botonF:hover{
+    color: #b100b1 !important;
+}
+
+.datos{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f3e3f3;
+}
+
+.datos h4{
+    font-weight: bold;
+}
+
+.datos-paciente{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: #240224;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 80px;
+}
